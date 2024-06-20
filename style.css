@@ -37,6 +37,26 @@ body{
     align-items: center;
     position: fixed;
 }
+#check{
+    display: none
+}
+.lado1P1{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.lado1P2{
+    display: none;
+}
+.lado1P3{
+    display: none;
+    background: #a2c5ee;
+}
+#menu{
+    width: 2.13rem;
+    height: 2.14rem;
+}
 .parte1 a{
     font-size: 2.12rem;
     color: white;
@@ -323,18 +343,48 @@ body{
     width: 1.8rem;
     height: 1.8rem;
 }
+@media only screen and (max-width:1100px) {
+    .lado1P1{
+        display: none;
+    }
+    .lado1P2{
+        width:100%;
+        padding: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .lado1P3 a{
+        color: #20294b;
+        text-decoration: none;
+    }
+    .lado1P3 p{
+        margin: 0%
+    }
+    #check:checked ~ .lado1P3{
+        margin-top: 11rem;
+        display: grid;
+        width: 100%;
+        height:9rem;
+        position: fixed;
+        text-align: center;
+        font-size: 1.7rem;
+    }
+}
 @media only screen and (max-width:428px) {
-
+    #check:checked ~ .lado1P3{
+        margin-top: 5rem;
+    }
     .principal{
         width: 100vw;
     }
     .parte1{
         width: 100vw;
-        height: 7rem;
+        height: 5rem;
         flex-wrap: wrap;
     }
     #espacio{
-        height: 7rem;
+        height: 5rem;
     }
     .parte1 a{
         font-size: 1rem;
@@ -356,6 +406,7 @@ body{
     }
     .parte2 div{
         width: 16rem;
+        height: auto;
     }
     #envioFormulario{
         margin-left: 0.3rem;
@@ -442,10 +493,12 @@ body{
         height: 1.3rem;
     }
     .masPreguntas {
+        color: #fff;
         font-size: 2rem;
     }
     .noDudes {
         font-size: 1rem;
+        color: #fff;
     }
     .contactanos {
         width: 5.06rem;
