@@ -284,7 +284,7 @@ body{
     background-color: #157FFB;
     color: #fff;
     border-radius: 1.87rem;
-    width: 95%;
+    width: 90%;
     margin: auto;
     margin-bottom:3rem ;
     text-align: center;
@@ -371,7 +371,7 @@ body{
         font-size: 1.7rem;
     }
 }
-@media only screen and (max-width:430px) {
+@media only screen and (max-width:695px) {
     #check:checked ~ .lado1P3{
         margin-top: 5rem;
     }
@@ -405,7 +405,7 @@ body{
         text-align: center;
     }
     .parte2 div{
-        width: 16rem;
+        width: 70vw;
         height: auto;
     }
     #envioFormulario{
@@ -439,7 +439,7 @@ body{
         font-size: 1.5rem;
     }
     #diseñoST{
-        width: 100%;
+        display: none;
     }
     .numeroEtapa {
         font-size: 2rem;
@@ -467,11 +467,13 @@ body{
         font-size: 2.5rem;
     }
     .preguntas {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
+        width: 95%;
     }
     .respuestas {
         font-size: 1.1rem;
         padding: 0;
+        width: 95%;
     }
     #logoF{
         width: 6.9rem;
