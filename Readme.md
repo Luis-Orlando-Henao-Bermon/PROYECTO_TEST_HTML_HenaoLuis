@@ -47,7 +47,7 @@ Aca se encuentra toda la informacion de contacto
 
 ### Archivo `style.css`
 
-Archivo de hoja de estilos en cascada (CSS) utilizado para dar estilo a los elementos HTML del proyecto.
+con este archivo le doy todos los estilos necesarios para que la pagina se vea bien y sea responsive
 
 ## Instalación y Uso
 
