@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/e1c8bcdb-41d3-4fb0-9bd4-6d536cff54be)# Proyecto PropuestaIngresoSolidario_cl
+# Proyecto PropuestaIngresoSolidario_cl
 
 ## Descripcion
 Es una one page para el programa de ingreso solidario donde se podra saber si eres beneficiario de el programa y la informacion necesaria sobre dicho programa. La pagina es 100% responsive y sirve para cualquier dispositivo como Computador, Tablet y celular
